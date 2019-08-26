@@ -154,10 +154,64 @@ header {
   margin: 0;
   background: #444343;
   width: 100%;
-  padding: 1rem 1rem 1.5rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 a {
   text-decoration: none;
   margin-right: 1rem;
   color: white;
+}
+.cta-div {
+  background-image: url("../img/mountain.jpg");
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+.intro {
+  color: white;
+  font-weight: 970;
+  font-size: 1.7rem;
+  text-shadow: 4px 4px #065c06;
+}
+.first-p {
+  padding: 8rem 0 0 3rem;
+}
+.second-p {
+  padding-left: 3rem;
+}
+button {
+  width: 20%;
+  background: #6927D8;
+  color: white;
+  border: #6927D8;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin: 0.5rem 0 0 3rem;
+}
+.bottom-content {
+  background: #444343;
+  color: white;
+}
+.bottom-content h2 {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+  font-weight: bolder;
+}
+.bottom-content h3 {
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #bfa4ee;
+  width: 22%;
+}
+.bottom-content .blurbs {
+  width: 80%;
+  margin: 1rem 3rem 0 3rem;
+  background: #6b6666;
+  border: 1px #7c7676;
+  border-radius: 5px;
+  padding: 1rem 0 1rem 1rem;
+}
+.bottom-content .blurb-text {
+  font-size: 0.8rem;
 }
