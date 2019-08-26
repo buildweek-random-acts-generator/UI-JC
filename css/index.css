@@ -215,3 +215,11 @@ button {
 .bottom-content .blurb-text {
   font-size: 0.8rem;
 }
+footer {
+  background: #444343;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 5rem 2rem 1.5rem 2rem;
+}
