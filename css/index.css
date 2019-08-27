@@ -161,6 +161,42 @@ a {
   margin-right: 1rem;
   color: white;
 }
+.about-title {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.ui-title {
+  margin: 2rem 0 0 4rem;
+  font-size: 1.3rem;
+  color: #640303;
+  font-weight: bolder;
+}
+.divs {
+  display: flex;
+  margin: 1.5rem 1rem 1.5rem 1.5rem;
+}
+.left-pics {
+  margin-right: 4rem;
+}
+.tony-div {
+  padding-left: 2.5rem;
+}
+.tony-div img {
+  border: 1px solid gray;
+  margin-left: -2.5rem;
+  padding: 0.2rem;
+}
+.tony-div h3 {
+  margin-left: -2.5rem;
+}
+.tony-div p {
+  margin-left: -2.5rem;
+}
+.about-div3 {
+  margin-left: 1.5rem;
+  width: 50%;
+}
 .cta-div {
   background-image: url("../img/mountain.jpg");
   display: flex;
