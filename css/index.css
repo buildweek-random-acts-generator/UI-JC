@@ -220,6 +220,11 @@ button {
   background: #444343;
   color: white;
 }
+@media (min-width: 800px) {
+  .bottom-content {
+    padding-top: 7rem;
+  }
+}
 .bottom-content h2 {
   text-align: center;
   padding: 3rem 0 1rem 0;
@@ -228,6 +233,10 @@ button {
 @media (min-width: 800px) {
   .bottom-content h2 {
     font-size: 1.5rem;
+    position: relative;
+    top: -8rem;
+    width: 60%;
+    left: 15rem;
   }
 }
 .bottom-content h3 {
@@ -235,6 +244,13 @@ button {
   margin-bottom: 1rem;
   border-bottom: 2px solid #bfa4ee;
   width: 22%;
+}
+@media (min-width: 800px) {
+  .bottom-content .mbl-blurb {
+    display: flex;
+    width: 100%;
+    margin: -5rem 0 0 -0.3rem;
+  }
 }
 .bottom-content .blurbs {
   width: 80%;

@@ -30,8 +30,7 @@
 }
 
 .first-p {
-    // 
-    padding: 8rem 0 0 3rem;
+ padding: 8rem 0 0 3rem;
     
     @media @desktop {
     // border: 2px solid green;
@@ -71,6 +70,11 @@ button {
     background: #444343;
     color: white;
 
+    @media @desktop {
+        padding-top: 7rem;
+        
+    }
+
     h2 {
         // border: 2px solid red;
         text-align: center;
@@ -79,6 +83,10 @@ button {
 
         @media @desktop {
           font-size: 1.5rem;
+          position: relative;
+          top: -8rem;
+          width: 60%;
+          left: 15rem;
         }
        
     }
@@ -90,6 +98,15 @@ button {
         
        }
 
+       .mbl-blurb {
+        @media @desktop {
+        //  border: 2px solid red;
+         display: flex;
+         width: 100%;
+         margin: -5rem 0 0 -.3rem; 
+        } 
+       }
+
        .blurbs {
         //  border: 2px solid red;
         width: 80%;
@@ -98,15 +115,24 @@ button {
         border: 1px rgb(124, 118, 118);
         border-radius: 5px; 
         padding: 1rem 0 1rem 1rem; 
-        
-       }
+
+
+        }
 
        .blurb-text {
            font-size: .8rem;
+           @media @desktop {
+               
+           }
        }
     
 
 }
+
+
+
+
+
 
 footer {
     background: #444343;
