@@ -8,6 +8,13 @@
  display: flex;
  flex-direction: column;
  min-height: 80vh;
+
+ @media @desktop {
+    //  border: 2px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+ }
 }
 
 .intro {
@@ -16,16 +23,29 @@
  font-size: 1.7rem;
  text-shadow: 4px 4px rgb(6, 92, 6);
 
+ @media @desktop {
+     font-size: 2.5rem;
+ }
+
 }
 
 .first-p {
-    // border: 2px solid red;
+    // 
     padding: 8rem 0 0 3rem;
+    
+    @media @desktop {
+    // border: 2px solid green;
+    padding: 10rem 0 0 16rem;
+    }
     
 }
 
 .second-p {
     padding-left: 3rem;
+
+    @media @desktop {
+    padding-left: 16rem;   
+    }
 }
 
 
@@ -39,6 +59,11 @@ button {
     font-size: 1rem;
     border-radius: 6px;
     margin: .5rem 0 0 3rem;
+
+    @media @desktop {
+      margin-left: 16rem; 
+      width: 10%; 
+    }
 }
 
 .bottom-content {
@@ -51,8 +76,12 @@ button {
         text-align: center;
         padding: 3rem 0 1rem 0;
         font-weight: bolder;
-       }
 
+        @media @desktop {
+          font-size: 1.5rem;
+        }
+       
+    }
        h3 {
            padding-bottom: .3rem;
            margin-bottom: 1rem;
@@ -62,13 +91,14 @@ button {
        }
 
        .blurbs {
-        // border: 2px solid red;
+        //  border: 2px solid red;
         width: 80%;
         margin: 1rem 3rem 0 3rem;
         background: rgb(107, 102, 102);
         border: 1px rgb(124, 118, 118);
         border-radius: 5px; 
         padding: 1rem 0 1rem 1rem; 
+        
        }
 
        .blurb-text {

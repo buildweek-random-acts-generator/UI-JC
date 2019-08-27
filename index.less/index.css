@@ -179,26 +179,12 @@ a {
   font-size: 1.7rem;
   text-shadow: 4px 4px #065c06;
 }
-@media (min-width: 800px) {
-  .intro {
-    font-size: 2.5rem;
-  }
-}
 .first-p {
+  border: 2px solid green;
   padding: 8rem 0 0 3rem;
-}
-@media (min-width: 800px) {
-  .first-p {
-    padding: 10rem 0 0 16rem;
-  }
 }
 .second-p {
   padding-left: 3rem;
-}
-@media (min-width: 800px) {
-  .second-p {
-    padding-left: 16rem;
-  }
 }
 button {
   width: 20%;
@@ -210,12 +196,6 @@ button {
   border-radius: 6px;
   margin: 0.5rem 0 0 3rem;
 }
-@media (min-width: 800px) {
-  button {
-    margin-left: 16rem;
-    width: 10%;
-  }
-}
 .bottom-content {
   background: #444343;
   color: white;
@@ -224,11 +204,6 @@ button {
   text-align: center;
   padding: 3rem 0 1rem 0;
   font-weight: bolder;
-}
-@media (min-width: 800px) {
-  .bottom-content h2 {
-    font-size: 1.5rem;
-  }
 }
 .bottom-content h3 {
   padding-bottom: 0.3rem;

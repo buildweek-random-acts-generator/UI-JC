@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 1.5;
+}
+.container {
+  margin: 0 auto;
+}
