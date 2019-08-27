@@ -166,7 +166,7 @@ a {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-.ui-title {
+.job-title {
   margin: 2rem 0 0 4rem;
   font-size: 1.3rem;
   color: #640303;
@@ -195,6 +195,18 @@ a {
 }
 .about-div3 {
   margin-left: 1.5rem;
+  width: 50%;
+}
+.about-div6 {
+  margin: 2rem 0 0 1.5rem;
+  width: 50%;
+}
+.about-div7 {
+  margin: 2rem 0 0 1.5rem;
+  width: 50%;
+}
+.about-div8 {
+  margin: 2rem 0 6rem 1.5rem;
   width: 50%;
 }
 .cta-div {
