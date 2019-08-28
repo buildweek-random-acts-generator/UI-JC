@@ -126,13 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
-}
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -161,9 +154,13 @@ a {
   margin-right: 1rem;
   color: white;
 }
+.about-div {
+  width: 90%;
+  margin-left: 3rem;
+}
 .about-title {
   text-align: center;
-  margin-top: 1rem;
+  margin: 4rem 0 7rem 0;
   font-size: 1.5rem;
 }
 .job-title {
@@ -192,9 +189,13 @@ a {
 .left-pics {
   margin-right: 4rem;
 }
+.jas-div {
+  margin-left: 1.5rem;
+  width: 50%;
+}
 .tony-div {
-  margin-left: 4.5rem;
   padding-left: 2.5rem;
+  width: 47%;
 }
 .tony-div img {
   border: 1px solid gray;
@@ -207,9 +208,19 @@ a {
 .tony-div p {
   margin-left: -2.5rem;
 }
-.about-div3 {
-  margin-left: 1.5rem;
-  width: 50%;
+.griss-div {
+  margin-left: -2.5rem;
+}
+.eralp-div {
+  width: 45%;
+}
+.will-div {
+  width: 54%;
+}
+@media (min-width: 800px) {
+}
+.duraan-div {
+  margin-left: -2.5rem;
 }
 .about-div6 {
   margin: 2rem 0 0 1.5rem;
