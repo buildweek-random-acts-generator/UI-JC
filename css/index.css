@@ -172,14 +172,28 @@ a {
   color: #640303;
   font-weight: bolder;
 }
+.h3-title {
+  font-style: italic;
+}
+.h3-name {
+  font-weight: bolder;
+  color: #19879b;
+}
 .divs {
   display: flex;
   margin: 1.5rem 1rem 1.5rem 1.5rem;
+}
+.blurb {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  width: 70%;
+  padding-bottom: 2rem;
 }
 .left-pics {
   margin-right: 4rem;
 }
 .tony-div {
+  margin-left: 4.5rem;
   padding-left: 2.5rem;
 }
 .tony-div img {
