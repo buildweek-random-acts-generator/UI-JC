@@ -161,68 +161,6 @@ a {
   margin-right: 1rem;
   color: white;
 }
-.about-title {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-.job-title {
-  margin: 2rem 0 0 4rem;
-  font-size: 1.3rem;
-  color: #640303;
-  font-weight: bolder;
-}
-.h3-title {
-  font-style: italic;
-}
-.h3-name {
-  font-weight: bolder;
-  color: #19879b;
-}
-.divs {
-  display: flex;
-  margin: 1.5rem 1rem 1.5rem 1.5rem;
-}
-.blurb {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  width: 70%;
-  padding-bottom: 2rem;
-}
-.left-pics {
-  margin-right: 4rem;
-}
-.tony-div {
-  margin-left: 4.5rem;
-  padding-left: 2.5rem;
-}
-.tony-div img {
-  border: 1px solid gray;
-  margin-left: -2.5rem;
-  padding: 0.2rem;
-}
-.tony-div h3 {
-  margin-left: -2.5rem;
-}
-.tony-div p {
-  margin-left: -2.5rem;
-}
-.about-div3 {
-  margin-left: 1.5rem;
-  width: 50%;
-}
-.about-div6 {
-  margin: 2rem 0 0 1.5rem;
-  width: 50%;
-}
-.about-div7 {
-  margin: 2rem 0 0 1.5rem;
-  width: 50%;
-}
-.about-div8 {
-  margin: 2rem 0 6rem 1.5rem;
-  width: 50%;
-}
 .cta-div {
   background-image: url("../img/mountain.jpg");
   display: flex;
@@ -241,26 +179,12 @@ a {
   font-size: 1.7rem;
   text-shadow: 4px 4px #065c06;
 }
-@media (min-width: 800px) {
-  .intro {
-    font-size: 2.5rem;
-  }
-}
 .first-p {
+  border: 2px solid green;
   padding: 8rem 0 0 3rem;
-}
-@media (min-width: 800px) {
-  .first-p {
-    padding: 10rem 0 0 16rem;
-  }
 }
 .second-p {
   padding-left: 3rem;
-}
-@media (min-width: 800px) {
-  .second-p {
-    padding-left: 16rem;
-  }
 }
 button {
   width: 20%;
@@ -272,47 +196,20 @@ button {
   border-radius: 6px;
   margin: 0.5rem 0 0 3rem;
 }
-@media (min-width: 800px) {
-  button {
-    margin-left: 16rem;
-    width: 10%;
-  }
-}
 .bottom-content {
   background: #444343;
   color: white;
-}
-@media (min-width: 800px) {
-  .bottom-content {
-    padding-top: 7rem;
-  }
 }
 .bottom-content h2 {
   text-align: center;
   padding: 3rem 0 1rem 0;
   font-weight: bolder;
 }
-@media (min-width: 800px) {
-  .bottom-content h2 {
-    font-size: 1.5rem;
-    position: relative;
-    top: -8rem;
-    width: 60%;
-    left: 15rem;
-  }
-}
 .bottom-content h3 {
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #bfa4ee;
   width: 22%;
-}
-@media (min-width: 800px) {
-  .bottom-content .mbl-blurb {
-    display: flex;
-    width: 100%;
-    margin: -5rem 0 0 -0.3rem;
-  }
 }
 .bottom-content .blurbs {
   width: 80%;
