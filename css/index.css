@@ -168,6 +168,7 @@ a {
   margin: 4rem 0 7rem 0;
   font-size: 1.5rem;
   text-shadow: 3px 3px #c7e7c7;
+  padding: 3rem 0;
 }
 @media (min-width: 800px) {
   .about-title {
