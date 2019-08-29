@@ -3,7 +3,7 @@
 [RandomActs Generator-Website] (https://randomacts-bw.netlify.com/)
 
 ## Web UI Developer
-- Jasmine Charles
+- Jasmine Ch
 
 ## Overview
 
